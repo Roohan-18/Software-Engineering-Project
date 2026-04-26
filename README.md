@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# System Health Dashboard
 
-# Run and deploy your AI Studio app
+A real-time system monitoring dashboard built with React, TypeScript, and Node.js.
 
-This contains everything you need to run your app locally.
+## 👥 Team Members
+- Roohan (Admin)
+- Manahil (Viewer)
 
-View your app in AI Studio: https://ai.studio/apps/4e653660-6c3d-4b89-a0c4-9b53a89bfef3
+## 🚀 Live Links
+- **Frontend (Vercel):** https://software-engineering-project-ruddy.vercel.app
+- **Backend (Railway):** https://software-engineering-project-production-baa4.up.railway.app
+- **GitHub:** https://github.com/Roohan-18/Software-Engineering-Project
 
-## Run Locally
+## 🛠️ Technologies Used
+- React + TypeScript (Frontend)
+- Node.js + Express (Backend)
+- SQLite (Database)
+- Vite (Build Tool)
+- JWT Authentication
 
-**Prerequisites:**  Node.js
+## ⚙️ How to Run Locally
+1. Install dependencies: `npm install`
+2. Set `GEMINI_API_KEY` in `.env.local`
+3. Run: `npm run dev`
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🧪 Test Cases (SQA)
+| Test | Expected | Status |
+|------|----------|--------|
+| Login with valid credentials | Dashboard opens | ✅ Pass |
+| Login with wrong password | Error message | ✅ Pass |
+| View system stats | CPU/Memory shown | ✅ Pass |
+| Admin can resolve alerts | Alert removed | ✅ Pass |
+| CSV report download | File downloads | ✅ Pass |
