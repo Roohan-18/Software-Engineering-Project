@@ -10,7 +10,7 @@
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit",
     "test": "echo \"Error: no test specified\" && exit 1",
-  "start": "node index.js"
+  "start": "npx tsx server.ts"
   },
   "dependencies": {
     "@google/genai": "^1.29.0",
